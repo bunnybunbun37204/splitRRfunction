@@ -1,17 +1,17 @@
-const sum = require('./index');
+const splitRR = require('./index');
 
-test('adds 1 + 2 to equal 3', () => {
-  expect(sum(1, 2)).toBe(3);
+test('adds 1 equal to 2', () => {
+  expect(splitRR(1)).toBe(2);
 });
 
-test('adds 4 + 5 to equal 9', () => {
-    expect(sum(4, 5)).toBe(9);
+test('adds 4 equal to 5', () => {
+    expect(splitRR(4)).toBe(5);
 });
 
-test('adds 5 - 5 to equal 0', () => {
-    expect(sum(5, -5)).toBe(0);
+test('adds 5 equal to 6', () => {
+    expect(splitRR(5)).toBe(6);
 });
 
-test('adds 5 - 5 to equal 0', () => {
-    expect(sum(5, -5)).toBe(0);
+test('adds 6 equal 7', () => {
+    expect(splitRR(6)).toBe(7);
 });
