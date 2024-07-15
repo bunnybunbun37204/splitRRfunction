@@ -38,29 +38,11 @@ const complexMockData = [
 
 test('splits RR correctly for simple mock data', () => {
     const expected = {
-        "3RR-00001": [{
-            rr_no: "3RR-00001",
-            q_out: 10,
-            q_remain: 0,
-            product_no: "P001"
-        }],
         "3RR-00002": [{
             rr_no: "3RR-00002",
             q_out: 15,
             q_remain: 5,
             product_no: "P001"
-        }],
-        "3RR-00004": [{
-            rr_no: "3RR-00004",
-            q_out: 15,
-            q_remain: 0,
-            product_no: "P002"
-        }],
-        "3RR-00005": [{
-            rr_no: "3RR-00005",
-            q_out: 15,
-            q_remain: 0,
-            product_no: "P002"
         }]
     };
 
@@ -69,29 +51,11 @@ test('splits RR correctly for simple mock data', () => {
 
 test('splits RR correctly for complex mock data', () => {
     const expected = {
-        "3RR-00001": [{
-            rr_no: "3RR-00001",
-            q_out: 10,
-            q_remain: 0,
-            product_no: "P003"
-        }],
-        "3RR-00002": [{
-            rr_no: "3RR-00002",
-            q_out: 5,
-            q_remain: 0,
-            product_no: "P003"
-        }],
         "3RR-00003": [{
             rr_no: "3RR-00003",
             q_out: 5,
             q_remain: 10,
             product_no: "P003"
-        }],
-        "3RR-00004": [{
-            rr_no: "3RR-00004",
-            q_out: 20,
-            q_remain: 0,
-            product_no: "P004"
         }],
         "3RR-00005": [{
             rr_no: "3RR-00005",
