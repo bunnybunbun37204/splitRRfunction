@@ -49,5 +49,20 @@ function splitRR(data) {
 
     return RR_split;
 }
+const mockData = [
+    {
+        rr_csv: "3RR-00001,3RR-00002,3RR-00003",
+        rr_csv_q: "10,20,30",
+        stock_out: "25",
+        product_no: "P001"
+    },
+    {
+        rr_csv: "3RR-00004,3RR-00005,3RR-00006",
+        rr_csv_q: "15,15,15",
+        stock_out: "30",
+        product_no: "P002"
+    }
+];
+console.log(splitRR(mockData))
 
 module.exports = splitRR;
