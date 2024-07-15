@@ -51,6 +51,3 @@ function splitRR(data) {
 }
 
 module.exports = splitRR;
-
-
-module.exports = splitRR;
